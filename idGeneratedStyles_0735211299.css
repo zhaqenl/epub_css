@@ -269,7 +269,6 @@ h3.x05-Head-A-2 {
   text-indent: 0;
 }
 h4.x05-Head-B {
-  font-family: "Gotham Medium", "Helvetica", sans-serif;
   font-size: 0.917em;
   margin: 2.27em 0 0.73em 0;
   page-break-after: avoid;
@@ -506,7 +505,6 @@ p.x08-Table-Title {
   text-indent: 0;
 }
 p.x12-Caption {
-  font-family: "Gotham Light", "Helvetica", sans-serif;
   font-size: 0.75em;
   margin: 1.75em 4em 2.12em 4em;
   text-indent: 0;
@@ -633,9 +631,6 @@ span.BOLD_ITAL {
 span.FR {
   float: right;
 }
-span.FreeFont {
-  font-family: "Free Sans", "Helvetica", sans-serif;
-}
 span.PT {
   font-size: 0.85em;
 }
@@ -672,7 +667,6 @@ h1.x13-BM-About-Au-Head {
   text-indent: 0;
 }
 p.x13-BM-About-Au {
-  font-family: "Minion Pro", "Georgia", serif;
   font-size: 0.938em;
   margin: 1.5em 0 0 0;
   text-indent: 0;
