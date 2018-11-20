@@ -1,396 +1,353 @@
-@import url('https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911');
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section,
-summary {
-    display: block;
+@import url(https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911);
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
 }
-audio,
-canvas,
-video {
-    display: inline-block;
+audio, canvas, video {
+  display: inline-block;
 }
 audio:not([controls]) {
-    display: none;
-    height: 0;
+  display: none;
+  height: 0;
 }
 [hidden] {
-    display: none;
+  display: none;
 }
 html {
-    font-family:  'Goudy Bookletter 1911', serif;
-    background-color:  #333538;
-    color: #92979f;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+  font-family: "Goudy Bookletter 1911", serif;
+  background-color: #333538;
+  color: #92979f;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 a:focus {
-    outline: thin dotted;
+  outline: thin dotted;
 }
-a:active,
-a:hover {
-    outline: 0;
+a:active, a:hover {
+  outline: 0;
 }
 abbr[title] {
-    border-bottom: 1px dotted;
+  border-bottom: 1px dotted;
 }
-b,
-strong {
-    font-weight: bold;
+b, strong {
+  font-weight: bold;
 }
 dfn {
-    font-style: italic;
+  font-style: italic;
 }
 mark {
-    background: #ff0;
-    color: #000;
+  background: #ff0;
+  color: #000;
 }
-code,
-kbd,
-pre,
-samp {
-    font-family: monospace, serif;
-    font-size: 1em;
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
 }
 pre {
-    white-space: pre-wrap;
-    word-wrap: break-word;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 q {
-    quotes: "\201C" "\201D" "\2018" "\2019";
+  quotes: "“" "”" "‘" "’";
 }
 small {
-    font-size: 80%;
+  font-size: 80%;
 }
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 sup {
-    top: -0.5em;
+  top: -0.5em;
 }
 sub {
-    bottom: -0.25em;
+  bottom: -0.25em;
 }
 img {
-    border: 0;
+  border: 0;
 }
 svg:not(:root) {
-    overflow: hidden;
+  overflow: hidden;
 }
 figure {
-    margin: 0;
+  margin: 0;
 }
 fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
-    padding: 0.35em 0.625em 0.75em;
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
 }
 legend {
-    border: 0;
-    padding: 0;
+  border: 0;
+  padding: 0;
 }
-button,
-input,
-select,
-textarea {
-    font-family: inherit;
-    font-size: 100%;
-    margin: 0;
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
 }
-button,
-input {
-    line-height: normal;
+button, input {
+  line-height: normal;
 }
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-    -webkit-appearance: button;
-    cursor: pointer;
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
 }
-button[disabled],
-input[disabled] {
-    cursor: default;
+button[disabled], input[disabled] {
+  cursor: default;
 }
-input[type="checkbox"],
-input[type="radio"] {
-    box-sizing: border-box;
-    padding: 0;
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
 }
 input[type="search"] {
-    -webkit-appearance: textfield;
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
 }
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
 }
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
 }
 textarea {
-    overflow: auto;
-    vertical-align: top;
+  overflow: auto;
+  vertical-align: top;
 }
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-pre,
-code {
-    font-family: 'Inconsolata', sans-serif;
+pre, code {
+  font-family: "Inconsolata", sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Goudy Bookletter 1911', serif;
-    font-weight: 700;
-    text-align: center;
-    color: #d39151;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Goudy Bookletter 1911", serif;
+  font-weight: 700;
+  text-align: center;
+  color: #d39151;
 }
 body {
-    text-align: justify;
-    text-indent: 2em;
-    background-color: #27323c;
-    margin: 0 auto;
-    max-width: 23cm;
-    border: 2pt dashed #27323c;
-    box-shadow: 0 0 20px #000;
-    padding: 1em;
+  text-align: justify;
+  text-indent: 2em;
+  background-color: #27323c;
+  margin: 0 auto;
+  max-width: 23cm;
+  border: 2pt dashed #27323c;
+  box-shadow: 0 0 20px #000;
+  padding: 1em;
 }
 code {
-    background-color: #d39151;
-    padding: 2px;
+  background-color: #d39151;
+  padding: 2px;
 }
 a {
-    color: indianred;
+  color: indianred;
 }
 a:visited {
-    color: deeporange;
+  color: deeporange;
 }
 a:hover {
-    color: lime;
+  color: lime;
 }
 pre {
-    background-color: #d39151;
-    color: #2f2f2f;
-    border: 1pt solid #6a4538;
-    padding: 1em;
-    box-shadow: 5pt 5pt 8pt #2f2f2f;
+  background-color: #d39151;
+  color: #2f2f2f;
+  border: 1pt solid #6a4538;
+  padding: 1em;
+  box-shadow: 5pt 5pt 8pt #2f2f2f;
 }
 pre code {
-    background-color: #d39151;
+  background-color: #d39151;
 }
-
 h1 {
-    font-size: 2.8em;
+  font-size: 2.8em;
 }
 h2 {
-    font-size: 2.4em;
+  font-size: 2.4em;
 }
 h3 {
-    font-size: 1.8em;
+  font-size: 1.8em;
 }
 h4 {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
 h5 {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
 h6 {
-    font-size: 1.15em;
+  font-size: 1.15em;
 }
-
-/* ISBN-13: 978-0525428145 */
-span._5-Head-Run-In-1,
-span._5-Head-Run-In-2 {
-    color: #d39151;
+span._5-Head-Run-In-1, span._5-Head-Run-In-2 {
+  color: #d39151;
 }
 p.x03-Chapter-Epigraph-FL {
-    font-family:"Bembo Book MT Std", "Georgia", serif;
-    font-size:0.75em;
-    margin: 1.67em 10% 0 10%;
-    text-indent:0;
+  font-family: "Bembo Book MT Std", "Georgia", serif;
+  font-size: 0.75em;
+  margin: 1.67em 10% 0 10%;
+  text-indent: 0;
 }
 p.x03-Chapter-Epigraph-Source {
-    font-family:"Whitman ItalicOsF", "Georgia", serif;
-    font-size:0.75em;
-    margin: 0.44em 15% 0 15%;
-    text-align:right;
-    text-indent:0;
-    font-style: italic;
+  font-family: "Whitman ItalicOsF", "Georgia", serif;
+  font-size: 0.75em;
+  margin: 0.44em 15% 0 15%;
+  text-align: right;
+  text-indent: 0;
+  font-style: italic;
 }
-p.x03-CO-Body-Text::first-letter{
-    font-size:2.6em;
-    line-height:0.85;
-    float:left;
-    margin:0 0.05em 0 0;
+p.x03-CO-Body-Text::first-letter {
+  font-size: 2.6em;
+  line-height: 0.85;
+  float: left;
+  margin: 0 0.05em 0 0;
 }
 p.x03-CO-Body-Text {
-    font-family:"Bembo Book MT Std", "Georgia", serif;
-    font-size:0.938em;
-    margin: 10% 0 0 0;
-    text-indent:0;
+  font-family: "Bembo Book MT Std", "Georgia", serif;
+  font-size: 0.938em;
+  margin: 10% 0 0 0;
+  text-indent: 0;
 }
 h1.x03-Chapter-Subtitle {
-    font-family:"Whitman ItalicOsF", "Georgia", serif;
-    font-size:1.5em;
-    margin: 0 1em 0.83em 1em;
-    page-break-after:avoid;
-    text-align:center;
-    text-indent:0;
-    font-style: italic;
+  font-family: "Whitman ItalicOsF", "Georgia", serif;
+  font-size: 1.5em;
+  margin: 0 1em 0.83em 1em;
+  page-break-after: avoid;
+  text-align: center;
+  text-indent: 0;
+  font-style: italic;
 }
 h2.x05-Head-A {
-    font-family:"Whitman BoldOsF", "Georgia", serif;
-    font-size:0.979em;
-    font-weight:bold;
-    margin: 2.23em 1em 0.68em 1em;
-    page-break-after:avoid;
-    text-align:center;
-    text-indent:0;	
+  font-family: "Whitman BoldOsF", "Georgia", serif;
+  font-size: 0.979em;
+  font-weight: bold;
+  margin: 2.23em 1em 0.68em 1em;
+  page-break-after: avoid;
+  text-align: center;
+  text-indent: 0;
 }
 p.x05-Head-A-Key {
-    font-family:"Whitman BoldOsF", "Georgia", serif;
-    font-size:1.146em;
-    font-weight:bold;
-    margin: 2.23em 1em 0.58em 1em;
-    page-break-after:avoid;
-    text-align:center;
-    text-indent:0;
-    color: #d39151;
+  font-family: "Whitman BoldOsF", "Georgia", serif;
+  font-size: 1.146em;
+  font-weight: bold;
+  margin: 2.23em 1em 0.58em 1em;
+  page-break-after: avoid;
+  text-align: center;
+  text-indent: 0;
+  color: #d39151;
 }
 h1.x03-Chapter-Number {
-    font-family:"Bembo Book MT Std", "Georgia", serif;
-    font-size:1em;
-    font-weight:bold;
-    margin: 15% 1em .5em 1em;
-    page-break-after:avoid;
-    text-align:center;
-    text-indent:0;
+  font-family: "Bembo Book MT Std", "Georgia", serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 15% 1em 0.5em 1em;
+  page-break-after: avoid;
+  text-align: center;
+  text-indent: 0;
 }
 h1.x03-Chapter-Title {
-    font-family:"Whitman BoldOsF", "Georgia", serif;
-    font-size:1.5em;
-    font-weight:bold;
-    margin: 0 1em 0.78em 1em;
-    page-break-after:avoid;
-    text-align:center;
-    text-indent:0;
+  font-family: "Whitman BoldOsF", "Georgia", serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 1em 0.78em 1em;
+  page-break-after: avoid;
+  text-align: center;
+  text-indent: 0;
 }
 div.w50c {
-    text-align: center;
-    max-height: 100%;
-    margin: 1em 25%;
-    clear: both;
+  text-align: center;
+  max-height: 100%;
+  margin: 1em 25%;
+  clear: both;
 }
 img.w100 {
-    display: block;
-    margin: 0 auto;	
-    max-height: 100%;
-    width: 100%;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  width: 100%;
 }
 div.sidebar {
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    margin: 1em 5%;
-    padding: .5em 5%;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin: 1em 5%;
+  padding: 0.5em 5%;
 }
 p.x10-Sidebar-Body-Text {
-	font-family:"Bembo Book MT Std", "Georgia", serif;
-	font-size:0.833em;
-	margin: 0;
-	text-indent:0;
+  font-family: "Bembo Book MT Std", "Georgia", serif;
+  font-size: 0.833em;
+  margin: 0;
+  text-indent: 0;
 }
 p.x10-Sidebar-Source {
-	font-family:"Whitman RomanOsF", "Georgia", serif;
-	font-size:0.75em;
-	margin: 1em 0 0 0;
-	text-align:center;
-	text-indent:0;
-}
-/* ISBN-13: 978-0525428145 */
-
-.tag {
-    background-color: #6a4538;
-    color: #d33682;
-    padding: 0 0.2em;
-}
-.todo,
-.next,
-.done {
-    color: #fdf6e3;
-    background-color: #d39151;
-    padding: 0 0.2em;
+  font-family: "Whitman RomanOsF", "Georgia", serif;
+  font-size: 0.75em;
+  margin: 1em 0 0 0;
+  text-align: center;
+  text-indent: 0;
 }
 .tag {
-    -webkit-border-radius: 0.35em;
-    -moz-border-radius: 0.35em;
-    border-radius: 0.35em;
+  background-color: #6a4538;
+  color: #d33682;
+  padding: 0 0.2em;
+}
+.todo, .next, .done {
+  color: #fdf6e3;
+  background-color: #d39151;
+  padding: 0 0.2em;
+}
+.tag {
+  -webkit-border-radius: 0.35em;
+  -moz-border-radius: 0.35em;
+  border-radius: 0.35em;
 }
 .TODO {
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    border-radius: 0.2em;
-    background-color: #e56e49;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  background-color: #e56e49;
 }
 .NEXT {
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    border-radius: 0.2em;
-    background-color: #7d7763;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  background-color: #7d7763;
 }
 .ACTIVE {
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    border-radius: 0.2em;
-    background-color: #268bd2;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  background-color: #268bd2;
 }
 .DONE {
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    border-radius: 0.2em;
-    background-color: #d39151;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  background-color: #d39151;
 }
 .WAITING {
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    border-radius: 0.2em;
-    background-color: #e56e49;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  background-color: #e56e49;
 }
 .HOLD {
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    border-radius: 0.2em;
-    background-color: #e56e49;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  background-color: #e56e49;
 }
 .NOTE {
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    border-radius: 0.2em;
-    background-color: #e56e49;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  background-color: #e56e49;
 }
 .CANCELLED {
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    border-radius: 0.2em;
-    background-color: #7d7763;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  background-color: #7d7763;
 }
