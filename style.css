@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911);
+html {
+  font-family: "Goudy Bookletter 1911", serif;
+  font-size: 1.05em;
+  color: #92979f;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  text-align: justify;
+  text-indent: 2em;
+  background-color: #27323c;
+  margin: 0 auto;
+  max-width: 23cm;
+  border: 2pt dashed #27323c;
+  box-shadow: 0 0 20px #000;
+  padding: 1em;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Goudy Bookletter 1911", serif;
+  font-weight: 700;
+  text-align: center;
+  color: #d39151;
+}
