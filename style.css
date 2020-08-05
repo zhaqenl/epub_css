@@ -6,6 +6,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
+
 body {
   text-align: justify;
   text-indent: 2em;
@@ -16,9 +17,14 @@ body {
   box-shadow: 0 0 20px #000;
   padding: 1em;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Goudy Bookletter 1911", serif;
   font-weight: 700;
   text-align: center;
   color: #d39151;
+}
+
+a {
+  color: #fdfd96; 
 }
